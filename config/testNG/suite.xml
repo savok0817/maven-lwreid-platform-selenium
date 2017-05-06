@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All" verbose="4">
+    <listeners>
+    </listeners>
+    <test name="All">
+        <classes>
+            <class name="com.lwreid.platform.selenium.tests.login.LoginTests"/>
+
+        </classes>
+    </test>
+</suite>

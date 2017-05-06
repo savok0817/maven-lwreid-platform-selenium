@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dev" verbose="4">
+    <test name="dev">
+        <classes>
+            <class name="com.fotobook.platform.selenium.tests.RegisterTests"/>
+            <!--<class name="com.fotobook.platform.selenium.tests.Account.AccountTests"/>
+            <class name="com.fotobook.platform.selenium.tests.LoginTests"/>-->
+            <class name="com.fotobook.platform.selenium.tests.WizardTests"/>
+            <class name="com.fotobook.platform.selenium.tests.Editor.EditorTests"/>
+            <class name="com.fotobook.platform.selenium.tests.Editor.BottomPanelTests"/>
+        </classes>
+    </test>
+</suite>
